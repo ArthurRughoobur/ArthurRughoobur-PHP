@@ -13,7 +13,7 @@
         <h1>TP 2 : La suite de la POO</h1>
         <h2 class="dif1">Question 1</h2>
         <section class="enonce">Créer une classe abstraite Personnage caractérisé par son nom. Lorsqu'une instance de personnage est utilisée en tant que chaîne de caractère c'est le nom du personnage qui est utilisé. Cette classe possède une méthode abstraite blessure() prenant en paramètre la valeur réelle correspondant à la puissance de la blessure.</section>
-        <?php
+
       
         <h2 class="dif2">Question 2</h2>
         <section class="enonce">Créer un trait KameHameHa possédant les attributs de type réel puissance et dernier lancé. Ce trait définie également une fonction permettant de lancé un KaméHaméHa. Elle prend en paramètre le personnage ciblé par le KaméHaméHa. Si le dernier tir a été réalisé moins d'une milliseconde avant, une exception est levé car le personnage n'a pas eu le temps de rassembler son énergie. La puissance du tir est calculée de la manière suivante : après 101 milliseconde, le tir est au maximum de la puissance du personnage (valeur de l'attribut puissance). entre 1 et 101 miliseconde c'est proportionnel à son temps de récupération.</section>

@@ -1,2 +1,2 @@
 <?php
-header('Location: /CoursPHP/index.php');
+header('Location: /CoursPHP/form.php');
